@@ -1,11 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Bitter:wght@500&family=Poppins&family=Roboto:ital,wght@0,100;0,300;0,400;0,700;1,100;1,300&display=swap');
 
+
+
 /*** General ***/
 * {
     font-family: 'Roboto-400', sans-serif;
     padding: 0;
     margin: 0;
 }
+body {
+    width: 100%;
+}
+
+
 
 /*** Header ***/
 .header {
@@ -60,6 +67,8 @@
     color: #CDFEAA;
   }
 
+
+
    /***  Bio ***/
 #bio {
     padding: 0;
@@ -94,6 +103,9 @@
     color: rgba(0, 0, 0, 0.692);
     background-color: rgb(36, 177, 242);
 }
+
+
+
   /***  Headings ***/
   .heading {
     padding: 20px;
@@ -118,6 +130,8 @@
     border-radius: 10px;
     box-shadow: -7px 5px 5px rgba(179, 5, 5, 0.743);
 }
+
+
 
 /*** Random-info  ***/
 
@@ -163,6 +177,8 @@
     
 }
 
+
+
 /*** inspiring part ***/
 
 .inspiring {
@@ -187,6 +203,9 @@
     align-self: bottom;
     margin: 80px 0 0 300px ;
 }
+
+
+
 /****  Footer **/
 
 .footer {
@@ -208,13 +227,12 @@
     color: white;
     margin:100px 10px 0 10px;
 
-    
-    
 }
 .footer-pages p {
     padding: 20px;
     text-align: center;
 } 
+
 
 
 /***  Sign up button ***/
@@ -246,8 +264,6 @@
     margin-top: 40px;
 }
 
-
-
 .container-button
 .container_button-content 
 button {
@@ -259,6 +275,8 @@ button {
     color: #F9FAF8;
     
 }
+
+
 
 /*** movies ***/
 
@@ -310,6 +328,8 @@ button {
     color: rgba(0, 0, 0, 0.692);
     background-color: rgb(36, 177, 242);
 }
+
+
 
 /*** Books ***/
 
@@ -364,6 +384,9 @@ button {
     color: rgba(0, 0, 0, 0.692);
     background-color: rgb(36, 177, 242);
 }
+
+
+
 
 /****  Hobbies **/
 
