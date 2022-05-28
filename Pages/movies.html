@@ -5,25 +5,43 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-     <style>
-        li {
-             padding-bottom: 5px;
-             margin: 5px;
-         }
-     </style>
+     <link rel="stylesheet" href="../CSS/style.css">
 </head>
 <body>
-    <a href="../index.html">Home</a>
-    <a href="./about.html">About</a>
-    <a href="./books.html">Books</a>
-    <a href="./hobi.html">Hobi</a>
+    <div class="header">
+        <h2 class="logo"><a href="../index.html"><img src="../Images/logo.png" alt="logo"></a>
+            <p>Dark Paradox</p>
+        </h2>
+        <div class="pages">
+            <a href="../index.html">Home</a>
+            <a href="./books.html">Books</a>
+            <a href="./hobi.html">Hobi</a>
+        </div>
+      
+    </div>
+    
 
-    <h1>Movies and Series</h1>
+    <h1 class="h1-movies">Movies and Series</h1>
 
-    <ul>
-        <li><a href="https://www.imdb.com/title/tt0944947/?ref_=nv_sr_srsg_0">Game of Thrones</a></li>
-        <li><a href="https://www.imdb.com/title/tt7631058/?ref_=nv_sr_srsg_9">The Lord of the Rings</a></li>
+    <ul class="container-books">
+        <li>
+            <img src="../Images/game-of-thrones.png" alt="Series">
+            <button>
+                <a href="https://www.imdb.com/title/tt0944947/?ref_=nv_sr_srsg_0">More info</a>
+            </button>
+        </li>
+        <li>
+            <img src="../Images/the-lord-of-thr-rings.png" alt="movies">
+            <button>
+                <a href="https://www.imdb.com/title/tt7631058/?ref_=nv_sr_srsg_9">More info</a>
+            </button>
+        </li>
        
     </ul>
+
+    <!--Footer-->
+    <div class="footer-pages">
+        <p>© 2022 Dark Paradox</p>
+    </div>
 </body>
 </html>
